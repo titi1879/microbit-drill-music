@@ -10,4 +10,10 @@ namespace drillmusic {
             music.PlaybackMode.UntilDone
         )
     }
+
+    //% block="play 808 drop"
+    export function drop808() {
+        music.play(music.tonePlayable(180, music.beat(BeatFraction.Quarter)), music.PlaybackMode.UntilDone)
+        music.play(music.tonePlayable(120, music.beat(BeatFraction.Half)), music.PlaybackMode.UntilDone)
+    }
 }
