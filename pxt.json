@@ -1,0 +1,12 @@
+{
+  "name": "drill-music",
+  "version": "0.0.1",
+  "description": "Custom drill music blocks for micro:bit",
+  "dependencies": {
+    "core": "*"
+  },
+  "files": [
+    "drillmusic.ts"
+  ],
+  "public": true
+}
